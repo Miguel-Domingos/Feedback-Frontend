@@ -55,9 +55,9 @@ watch(credentials, () => {
             <span class="text-4xl font-semibold">Feedback </span>
           </div>
           <span class="font-semibold">
-            Mantenha-se organizado e produtivo com nosso aplicativo de lista de
-            tarefas. Crie, edite e acompanhe suas tarefas diárias de maneira
-            simples e eficiente.
+            Colete e analise opiniões com o nosso aplicativo de feedback.
+            Capture insights valiosos, melhore experiências e tome decisões mais
+            inteligentes com facilidade e eficiência.
           </span>
         </div>
       </div>
