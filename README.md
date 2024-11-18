@@ -1,6 +1,6 @@
-# Nuxt Minimal Starter
+# Feedback Web Aopp
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Feedback, é uma aplicação com o principal objectivo de permiter que empresas recebam de seus clientes/usuários
 
 ## Setup
 

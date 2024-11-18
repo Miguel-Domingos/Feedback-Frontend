@@ -3,15 +3,15 @@ import type { Api } from "../services.types";
 import { useAuthStore } from "@/store";
 import { storeToRefs } from "pinia";
 
-export function makeDeleteRequest(
+export function makeDeleteRequest<I>(
   path: string,
   api: Api,
   configs?: AxiosRequestConfig
 ) {
   const token = storeToRefs(useAuthStore()).token.value;
-  return async () => {
+  return async (comment_id: I) => {
     try {
-      const response = await api.delete(path + "/", {
+      const response = await api.delete(path + "/" + comment_id, {
         ...configs,
         headers: { Authorization: `Bearer ${token.value}` },
       });
